@@ -9,6 +9,11 @@
       "include": {
         "file": "changes/test2.json"
       }
+    },
+    {
+      "include": {
+        "file": "changes/test3.json"
+      }
     }
   ]
 }

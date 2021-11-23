@@ -1,0 +1,20 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "1",
+        "author": "bhutchinson",
+        "comment": "delete parameters for manualPurgeJob which we are eliminating",
+        "context": "bootstrap,demo,unit",
+        "changes": [
+          {
+            "delete": {
+              "tableName": "KRCR_PARM_T",
+              "where": "NMSPC_CD = 'KFS-GL' and CMPNT_CD = 'PurgeCollectorDetailStep' and PARM_NM = 'PRIOR_TO_YEAR'"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
