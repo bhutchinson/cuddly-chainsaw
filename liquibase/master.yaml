@@ -4,3 +4,6 @@ databaseChangeLog
 
   -  include:
        -  file: changes/test2.yaml
+
+  -  include:
+       -  file: changes/test3.yaml
