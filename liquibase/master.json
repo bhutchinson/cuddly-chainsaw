@@ -4,6 +4,11 @@
       "include": {
         "file": "changes/test1.json"
       }
+    },
+    {
+      "include": {
+        "file": "changes/test2.json"
+      }
     }
   ]
 }
